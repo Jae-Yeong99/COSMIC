@@ -7,8 +7,8 @@ IFS=$'\n\t'
 # ==============================
 data_root="/data"
 
-# ImageNet-A / ImageNet-R only
-testsets="A/R"
+# ImageNet-K only
+testsets="K/"
 
 ctx_init="a_photo_of_a"
 
