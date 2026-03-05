@@ -17,7 +17,7 @@ dino_size="l"            # l | b | s
 center_type_clip="attn"  # default | ema | attn
 center_type_dino="default"
 
-gpu_id=1
+gpu_id=0
 batch_size=8
 
 current_time="$(date +"%Y_%m_%d_%H_%M_%S")"
