@@ -273,7 +273,7 @@ def make_max_cliques(text_feat, reduce=False, MAC_name=None, control=None, is_SO
         adjacency_matrix = (adjacency_matrix2 > 1).float()
 
 
-    G = nx.from_numpy_matrix(adjacency_matrix.cpu().numpy())
+    G = nx.from_numpy_array(adjacency_matrix.cpu().numpy())
     cliques = list(nx.find_cliques(G))
 
 
